@@ -1083,8 +1083,11 @@
     .contact-block__content {
         min-height: 124px;
         padding: 10px 10px;
-        width: 241px;
+        width: 270px;
         border-radius: 3px 62px 62px 3px;
+    }
+    .contact-block__item {
+        max-width: 200px;
     }
     .page-contacts .title-section {
         margin-bottom: 0;
@@ -1140,7 +1143,7 @@
         padding-bottom: 20px;
     }
     .contacts-form__descr {
-        max-width: 184px;
+        max-width: 256px;
         margin: 0 auto;
         margin-bottom: 15px;
         font-size: 12px;
@@ -1182,6 +1185,16 @@
     }
     .row_advantages {
         padding: 0 20px;
+    }
+    .why-block {
+        padding: 0 11px;
+    }
+    .item-catalog {
+        padding: 0 10px;
+    }
+    .item-catalog__title {
+        margin-left: -10px;
+        margin-right: -10px;
     }
 }
 
@@ -1259,7 +1272,7 @@
         padding: 0 50px;
     }
     .contacts-form {
-        max-width: 220px;
+        max-width: 265px;
     }
 }
 @media only screen and (max-width : 450px) {
