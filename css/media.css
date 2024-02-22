@@ -1196,6 +1196,9 @@
         margin-left: -10px;
         margin-right: -10px;
     }
+    .fancybox-slide:not(.fancybox-slide--html) {
+        padding: 20px;
+    }
 }
 
 /* Small Devices, Tablets */
