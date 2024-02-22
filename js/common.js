@@ -1,6 +1,6 @@
 $(document).ready(function() {
 
-	if ($('.time-picker').length > 0) {
+	if ($('#time-picker').length > 0) {
 		const elem = document.getElementById('time-picker');
 		const rangepicker = new DateRangePicker(elem, {
 			format: 'dd/mm/yyyy',
