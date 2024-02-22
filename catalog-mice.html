@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html lang="ru" class="lt-ie9 lt-ie8 lt-ie7"><![endif]-->
+<!--[if IE 7]><html lang="ru" class="lt-ie9 lt-ie8"><![endif]-->
+<!--[if IE 8]><html lang="ru" class="lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="ru">
+<!--<![endif]-->
+<head>
+	<meta charset="utf-8" />
+	<title>Заголовок</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta name="format-detection" content="telephone=no" />
+	<link rel="shortcut icon" href="favicon.png" />
+	<link rel="stylesheet" href="libs/bootstrap/bootstrap-grid.css" />
+	<link rel="stylesheet" href="libs/fontawesome-free-5.12.0-web/css/all.min.css" />
+	<link rel="stylesheet" href="libs/fancybox-master/dist/jquery.fancybox.min.css" />
+	<link rel="stylesheet" href="libs/swiper/swiper-bundle.min.css" />
+	<link rel="stylesheet" href="libs/vanillajs-datepicker-master/dist/css/datepicker.min.css">
+	<link rel="stylesheet" href="css/fonts.css" />
+	<link rel="stylesheet" href="css/main.css?ver=1.1" />
+	<link rel="stylesheet" href="css/media.css?ver=1.1" />
+</head>
+<body>
+
+	<div class="wrapper">
+
+		<header class="header">
+			<div class="container">
+				<div class="header__top">
+					<span class='sandwich'>
+						<span class='sw-topper'></span>
+						<span class='sw-bottom'></span>
+						<span class='sw-footer'></span>
+					</span>
+					<a href="#" class="btn-home">
+						<img src="img/home.svg" alt="alt">
+					</a>
+					<ul class="menu">
+						<li><a href="#">ГЛАВНАЯ</a></li>
+						<li><a href="#">НАШИ ТУРЫ</a></li>
+						<li><a href="#">mice  туризм</a></li>
+						<li><a href="#">О КОМПАНИИ</a></li>
+						<li><a href="#">ОТЗЫВЫ</a></li>
+						<li><a href="#">КОНТАКТЫ</a></li>
+					</ul>
+					<a href="#" class="logo">
+						<img src="img/logo.svg" alt="alt">
+					</a>
+					<div class="flags-block">
+						<div class="icon-flag"><img src="img/ru.png" alt="alt"></div>
+					</div>
+				</div>
+				<div class="header__bottom">
+					<div class="header__item">
+						<div class="phone-block">
+							<a href="tel:+79037988384" class="phone-main"><span class="icon-main"><img src="img/phone.svg" alt="alt"></span>+ 7 903 798-83-84</a>
+							<div class="descr-phone">Москва</div>
+						</div>
+						<div class="item-contact"><span class="icon-main"><img src="img/location.svg" alt="alt"></span>г. Москва <br>ул. Автозаводская  <br>дом 7 </div>
+					</div>
+					<div class="header__item">
+						<div class="phone-block">
+							<a href="tel:+37477701180" class="phone-main"><span class="icon-main"><img src="img/phone.svg" alt="alt"></span>+ 374 77 70-11-80</a>
+							<div class="descr-phone">Ереван</div>
+						</div>
+						<a href="mailto:info@gmail.com " class="item-contact"><span class="icon-main"><img src="img/email.svg" alt="alt"></span>info@gmail.com </a>
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<div class="container">
+			<ul class="breadcrumbs">
+				<li>Главная</li>
+				<li><a href="#">Наши туры</a></li>
+			</ul>
+		</div>
+
+		<section class="page-catalog">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-2">
+						<ul class="nav-catalog">
+							<li class="active"><a href="#">Деловые встречи</a></li>
+							<li><a href="#">Поощрительные поездки</a></li>
+							<li><a href="#">Конференции</a></li>
+							<li><a href="#">Мероприятия</a></li>
+						</ul>
+					</div>
+					<div class="col-lg-10 col_catalog">
+						<div class="row row_catalog">
+							<div class="col-lg-6">
+								<div class="item-catalog">
+									<a href="#" class="item-catalog__title">Деловые встречи</a>
+									<a href="#" class="item-catalog__image">
+										<img src="img/catalog_tourism1.jpg" alt="alt">
+									</a>
+									<div class="item-catalog__text">
+										<p> Общение с десятками интересных людей</p>
+									</div>
+									<div class="item-catalog__bottom">
+										<p>2 дня</p>
+										<a href="#" class="btn-main">забронировать</a>
+										<a href="#" class="btn-main btn-main_transparent">подробнее ...</a>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-6">
+								<div class="item-catalog">
+									<a href="#" class="item-catalog__title">Поощрительные поездки</a>
+									<a href="#" class="item-catalog__image">
+										<img src="img/catalog_tourism2.jpg" alt="alt">
+									</a>
+									<div class="item-catalog__text">
+										<p> Побуждают к достижению новых целей</p>
+									</div>
+									<div class="item-catalog__bottom">
+										<p>2 дня</p>
+										<a href="#" class="btn-main">забронировать</a>
+										<a href="#" class="btn-main btn-main_transparent">подробнее ...</a>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-6">
+								<div class="item-catalog">
+									<a href="#" class="item-catalog__title">Конференции</a>
+									<a href="#" class="item-catalog__image">
+										<img src="img/catalog_tourism3.jpg" alt="alt">
+									</a>
+									<div class="item-catalog__text">
+										<p>Новые знания и расширение возможностей</p>
+									</div>
+									<div class="item-catalog__bottom">
+										<p>2 дня</p>
+										<a href="#" class="btn-main">забронировать</a>
+										<a href="#" class="btn-main btn-main_transparent">подробнее ...</a>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-6">
+								<div class="item-catalog">
+									<a href="#" class="item-catalog__title">Мероприятия</a>
+									<a href="#" class="item-catalog__image">
+										<img src="img/catalog_tourism4.jpg" alt="alt">
+									</a>
+									<div class="item-catalog__text">
+										<p>Любой формат и масштаб для вашей команды</p>
+									</div>
+									<div class="item-catalog__bottom">
+										<p>2 дня</p>
+										<a href="#" class="btn-main">забронировать</a>
+										<a href="#" class="btn-main btn-main_transparent">подробнее ...</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="pager">
+							<a class="prev page-numbers disabled" href="#"><i class="fas fa-chevron-left"></i></a>
+							<a class="page-numbers" href="#">1</a> 
+							<a class="page-numbers" href="#">2</a> 
+							<span aria-current="page" class="page-numbers current" href="#">3</span> 
+							<a class="next page-numbers" href="#"><i class="fas fa-chevron-right"></i></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="about">
+			<div class="container">
+				<h2 class="title-section">Создаём мероприятия <span>любого масштаба и концепции</span></h2>
+				<div class="row">
+					<div class="col-lg-9">
+						<div class="about__descr">Наш подход заключается в умении слышать потребности клиента, эффективно решать <br>поставленные задачи и быть рядом на каждом этапе.</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-lg-6">
+						<ul class="list-main">
+							<li>Армения - любовь с первого взгляда! Потрясающая архитектура зданий, гостеприимные жители, национальная кухня, удивительная природа, старинные храмы - все это в сочетании с классной компанией и на комфортабельном трансфере. Вы точно запомните этот тур навсегда! <br><br></li>
+							<li>вкусно и много есть;</li>
+							<li>наслаждаться домашним вином;</li>
+							<li>восхищаться видами и гостеприимством местных жителей;</li>
+							<li>делать потрясающие фотографии в самых красивых локациях страны;</li>
+							<li>веселиться, смеяться и заводить новых друзей.</li>
+						</ul>
+					</div>
+					<div class="col-lg-6 col_about">
+						<div class="couple-images">
+							<div class="couple-images__item">
+								<img src="img/about1.jpg" alt="alt">
+							</div>
+							<div class="couple-images__item couple-images__item_second">
+								<img src="img/about2.jpg" alt="alt">
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="about__bottom">
+					<p>Вы выходите из аэропорта и на этом начинается ваше лучшее путешествие. Больше вам ни о чем не нужно думать. Расслабьтесь. Мы встречаем вас в аэропорту Еревана, угощаем домашним вином и отвозим отдыхать в отель.</p>
+				</div>
+			</div>
+		</section>
+
+		<section class="consultation">
+			<div class="container">
+				<div class="row align-items-center">
+					<div class="col-lg-6">
+						<h2 class="consultation__title">У вас остались вопросы?</h2>
+						<div class="consultation__descr">Задайте их нам <br>и мы оперативно ответим</div>
+					</div>
+					<div class="col-lg-6">
+						<div class="form-page">
+							<form>
+								<div class="row align-items-end">
+									<div class="col-md-6">
+										<div class="item-form">
+											<div class="icon-input">
+												<img src="img/ic_input1.svg" alt="alt">
+											</div>
+											<input type="text" placeholder="Контактное лицо *" required="required">
+										</div>
+									</div>
+									<div class="col-md-6">
+										<div class="item-form">
+											<div class="icon-input">
+												<img src="img/ic_input2.svg" alt="alt">
+											</div>
+											<input type="text" placeholder="Ваш телефон *" class="input-phone" required="required">
+										</div>
+									</div>
+									<div class="col-md-6">
+										<div class="item-form">
+											<div class="icon-input">
+												<img src="img/ic_input3.svg" alt="alt">
+											</div>
+											<input type="email" placeholder="Ваш e-mail *" required="required">
+										</div>
+									</div>
+									<div class="col-md-6">
+										<div class="row" id="time-picker">
+											<div class="col-6">
+												<div class="item-form item-form_date">
+													<div class="item-form__title">Дата вылета</div>
+													<div class="icon-input">
+														<img src="img/ic_input4.svg" alt="alt">
+													</div>
+													<input type="text" name="range-start" placeholder="дд.мм.гггг">
+												</div>
+											</div>
+											<div class="col-6">
+												<div class="item-form item-form_date">
+													<div class="item-form__title">Дата прилета</div>
+													<div class="icon-input">
+														<img src="img/ic_input4.svg" alt="alt">
+													</div>
+													<input type="text" name="range-end" placeholder="дд.мм.гггг">
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="col-12">
+										<div class="item-form">
+											<textarea placeholder="Ваш вопрос ? "></textarea>
+										</div>
+									</div>
+								</div>
+								<div class="form-page__bottom">
+									<div class="checkbox">
+										<label>
+											<input type="checkbox" required="required" checked="checked" />
+											<span>Нажимая на кнопку, вы даете согласие на обработку своих персональных данных (политика безопасности)*</span>
+										</label>
+									</div>
+									<button class="btn-main">Отправить</button>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="reviews">
+			<div class="container">
+				<h2 class="title-section">отзывы <span>наших клиентов</span></h2>
+				<div class="swiper swiper-videos">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide">
+							<a href="https://youtu.be/bTqVqk7FSmY?si=WBMOUdO7fbGnhn7q" class="item-video fancybox">
+								<span class="item-video__image">
+									<img src="img/review1.jpg" alt="alt">
+								</span>
+								<span class="item-video__title">Николай Николаевна <br>г. Москва</span>
+							</a>
+						</div>
+						<div class="swiper-slide">
+							<a href="https://youtu.be/bTqVqk7FSmY?si=WBMOUdO7fbGnhn7q" class="item-video fancybox">
+								<span class="item-video__image">
+									<img src="img/review2.jpg" alt="alt">
+								</span>
+								<span class="item-video__title">Николай Николаевна <br>г. Москва</span>
+							</a>
+						</div>
+						<div class="swiper-slide">
+							<a href="https://youtu.be/bTqVqk7FSmY?si=WBMOUdO7fbGnhn7q" class="item-video fancybox">
+								<span class="item-video__image">
+									<img src="img/review3.jpg" alt="alt">
+								</span>
+								<span class="item-video__title">Николай Николаевна <br>г. Москва</span>
+							</a>
+						</div>
+						<div class="swiper-slide">
+							<a href="https://youtu.be/bTqVqk7FSmY?si=WBMOUdO7fbGnhn7q" class="item-video fancybox">
+								<span class="item-video__image">
+									<img src="img/review4.jpg" alt="alt">
+								</span>
+								<span class="item-video__title">Николай Николаевна <br>г. Москва</span>
+							</a>
+						</div>
+						<div class="swiper-slide">
+							<a href="https://youtu.be/bTqVqk7FSmY?si=WBMOUdO7fbGnhn7q" class="item-video fancybox">
+								<span class="item-video__image">
+									<img src="img/review1.jpg" alt="alt">
+								</span>
+								<span class="item-video__title">Николай Николаевна <br>г. Москва</span>
+							</a>
+						</div>
+						<div class="swiper-slide">
+							<a href="https://youtu.be/bTqVqk7FSmY?si=WBMOUdO7fbGnhn7q" class="item-video fancybox">
+								<span class="item-video__image">
+									<img src="img/review2.jpg" alt="alt">
+								</span>
+								<span class="item-video__title">Николай Николаевна <br>г. Москва</span>
+							</a>
+						</div>
+						<div class="swiper-slide">
+							<a href="https://youtu.be/bTqVqk7FSmY?si=WBMOUdO7fbGnhn7q" class="item-video fancybox">
+								<span class="item-video__image">
+									<img src="img/review3.jpg" alt="alt">
+								</span>
+								<span class="item-video__title">Николай Николаевна <br>г. Москва</span>
+							</a>
+						</div>
+						<div class="swiper-slide">
+							<a href="https://youtu.be/bTqVqk7FSmY?si=WBMOUdO7fbGnhn7q" class="item-video fancybox">
+								<span class="item-video__image">
+									<img src="img/review4.jpg" alt="alt">
+								</span>
+								<span class="item-video__title">Николай Николаевна <br>г. Москва</span>
+							</a>
+						</div>
+					</div>
+					<div class="btn-swipe swiper-button-prev"><i class="far fa-chevron-left"></i></div>
+					<div class="btn-swipe swiper-button-next"><i class="far fa-chevron-right"></i></div>
+					<div class="swiper-pagination"></div>
+				</div>
+				<div class="swiper swiper-reviews">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide">
+							<div class="item-review">
+								<div class="item-review__head">
+									<div class="item-review__left">
+										<div class="item-review__name">Дмитрий</div>
+										<div class="item-review__date">21. 07. 2023</div>
+									</div>
+									<div class="item-review__image">
+										<img src="img/img_review1.svg" alt="alt">
+									</div>
+								</div>
+								<div class="item-review__text">
+									<p>Мой гид Артём показал мне малую часть прекрасного города, но это были такие уголки, куда навряд ли можно было попасть без его сопровождения. Интересно было познакомиться с людьми, живущими в Гюмри, творящими красоту и искренне любящими свой город. Большое спасибо.)</p>
+									<p>Мой гид Артём показал мне малую часть прекрасного города, но это были такие уголки, куда навряд ли можно было попасть без его сопровождения. Интересно было познакомиться с людьми, живущими в Гюмри, творящими красоту и искренне любящими свой город. Большое спасибо.)</p>
+								</div>
+								<a href="#" class="link-page">Читать полностью</a>
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<div class="item-review">
+								<div class="item-review__head">
+									<div class="item-review__left">
+										<div class="item-review__name">Дмитрий</div>
+										<div class="item-review__date">21. 07. 2023</div>
+									</div>
+									<div class="item-review__image">
+										<img src="img/img_review1.svg" alt="alt">
+									</div>
+								</div>
+								<div class="item-review__text">
+									<p>Мой гид Артём показал мне малую часть прекрасного города, но это были такие уголки, куда навряд ли можно было попасть без его сопровождения. Интересно было познакомиться с людьми, живущими в Гюмри, творящими красоту и искренне любящими свой город. Большое спасибо.)</p>
+									<p>Мой гид Артём показал мне малую часть прекрасного города, но это были такие уголки, куда навряд ли можно было попасть без его сопровождения. Интересно было познакомиться с людьми, живущими в Гюмри, творящими красоту и искренне любящими свой город. Большое спасибо.)</p>
+								</div>
+								<a href="#" class="link-page">Читать полностью</a>
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<div class="item-review">
+								<div class="item-review__head">
+									<div class="item-review__left">
+										<div class="item-review__name">Дмитрий</div>
+										<div class="item-review__date">21. 07. 2023</div>
+									</div>
+									<div class="item-review__image">
+										<img src="img/img_review1.svg" alt="alt">
+									</div>
+								</div>
+								<div class="item-review__text">
+									<p>Мой гид Артём показал мне малую часть прекрасного города, но это были такие уголки, куда навряд ли можно было попасть без его сопровождения. Интересно было познакомиться с людьми, живущими в Гюмри, творящими красоту и искренне любящими свой город. Большое спасибо.)</p>
+									<p>Мой гид Артём показал мне малую часть прекрасного города, но это были такие уголки, куда навряд ли можно было попасть без его сопровождения. Интересно было познакомиться с людьми, живущими в Гюмри, творящими красоту и искренне любящими свой город. Большое спасибо.)</p>
+								</div>
+								<a href="#" class="link-page">Читать полностью</a>
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<div class="item-review">
+								<div class="item-review__head">
+									<div class="item-review__left">
+										<div class="item-review__name">Дмитрий</div>
+										<div class="item-review__date">21. 07. 2023</div>
+									</div>
+									<div class="item-review__image">
+										<img src="img/img_review1.svg" alt="alt">
+									</div>
+								</div>
+								<div class="item-review__text">
+									<p>Мой гид Артём показал мне малую часть прекрасного города, но это были такие уголки, куда навряд ли можно было попасть без его сопровождения. Интересно было познакомиться с людьми, живущими в Гюмри, творящими красоту и искренне любящими свой город. Большое спасибо.)</p>
+									<p>Мой гид Артём показал мне малую часть прекрасного города, но это были такие уголки, куда навряд ли можно было попасть без его сопровождения. Интересно было познакомиться с людьми, живущими в Гюмри, творящими красоту и искренне любящими свой город. Большое спасибо.)</p>
+								</div>
+								<a href="#" class="link-page">Читать полностью</a>
+							</div>
+						</div>
+					</div>
+					<div class="btn-swipe swiper-button-prev"><i class="far fa-chevron-left"></i></div>
+					<div class="btn-swipe swiper-button-next"><i class="far fa-chevron-right"></i></div>
+				</div>
+				<div class="bottom-button">
+					<a href="#" class="btn-main">Смотреть все отзывы</a>
+				</div>
+			</div>
+		</section>
+
+		<footer class="footer">
+			<div class="container">
+				<a href="#" class="btn-top">Наверх</a>
+				<div class="row">
+					<div class="col-lg-3">
+						<div class="footer__top">
+							<a href="#" class="footer__logo">
+								<img src="img/logo.svg" alt="alt">
+							</a>
+							<div class="footer__info">
+								<p>© 2017 - 2023 YeramTravel</p>
+								<ul>
+									<li><a href="#">Политика конфиденциальности</a></li>
+									<li><a href="#">Карта сайта</a></li>
+									<li><a href="#">Написать директору</a></li>
+								</ul>
+							</div>
+						</div>
+						<ul class="list-socials">
+							<li><a href="#" target="_blank"><img src="img/social1.svg" alt="alt"></a></li>
+							<li><a href="#" target="_blank"><img src="img/social2.svg" alt="alt"></a></li>
+							<li><a href="#" target="_blank"><img src="img/social3.svg" alt="alt"></a></li>
+							<li><a href="#" target="_blank"><img src="img/social4.svg" alt="alt"></a></li>
+						</ul>
+					</div>
+					<div class="col-lg-2 col-6">
+						<div class="footer__title">РАЗДЕЛЫ</div>
+						<ul class="footer__nav">
+							<li><a href="#">Главная</a></li>
+							<li><a href="#">Наши туры</a></li>
+							<li><a href="#">Мice  туризм</a></li>
+							<li><a href="#">О компании</a></li>
+							<li><a href="#">Отзывы</a></li>
+							<li><a href="#">Контакты</a></li>
+						</ul>
+					</div>
+					<div class="col-lg-2 col-6">
+						<div class="footer__center">
+							<div class="footer__title">Туры</div>
+							<ul class="footer__nav">
+								<li><a href="#">Классические туры</a></li>
+								<li><a href="#">Винные туры</a></li>
+								<li><a href="#">Гастрономические туры</a></li>
+								<li><a href="#">Однодневные туры</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-lg-3">
+						<div class="footer__title footer__title_contacts">Наши контакты</div>
+						<div class="units-wrap">
+							<div class="unit-contact">
+								<div class="unit-contact__icon">
+									<img src="img/contact_phone.svg" alt="alt">
+								</div>
+								<p><a href="tel:+74998774236" class="unit-contact__phone">+ 7 (499) <strong>877-42-36</strong></a></p>
+								<p><a href="tel:+37477701180" class="unit-contact__phone">+ 374 (77) <strong>70-11-80</strong></a></p>
+							</div>
+							<a href="#" class="unit-contact unit-contact_wp">
+								<span class="unit-contact__icon">
+									<img src="img/contact_wp.svg" alt="alt">
+								</span>
+								<span>WhatsApp</span>
+							</a>
+							<a href="mailto:yeramtravel@gmail.com" class="unit-contact unit-contact_email">
+								<span class="unit-contact__icon">
+									<img src="img/contact_email.svg" alt="alt">
+								</span>
+								<span>yeramtravel@gmail.com</span>
+							</a>
+						</div>
+					</div>
+					<div class="col-lg-2">
+						<div class="footer__right">
+							<div class="footer__title footer__title_contacts">Адрес / время работы</div>
+							<div class="unit-contact">
+								<div class="unit-contact__icon">
+									<img src="img/contact_time.svg" alt="alt">
+								</div>
+								<p>Ежедневно <br>с 9:00 до 21:00</p>
+							</div>
+							<div class="unit-contact">
+								<div class="unit-contact__icon">
+									<img src="img/contact_location.svg" alt="alt">
+								</div>
+								<p>г. Москва <br>ул. Автозаводская <br>дом 7 </p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+		
+	</div>
+
+	<div id="callback" class="modal-block">
+		<div class="modal-wrap">
+			<div class="logo-modal">
+				<img src="img/logo2.svg" alt="alt">
+			</div>
+			<div class="title-modal">Укажите свои контактные данные</div>
+			<div class="descr-modal">и мы перезвоним вам в течении нескольких минут</div>
+			<form>
+				<div class="item-form item-form_page">
+					<div class="icon-input">
+						<img src="img/ic_input1_1.svg" alt="alt">
+					</div>
+					<input type="text" placeholder="Введите ваше имя" required="required">
+				</div>
+				<div class="item-form item-form_page">
+					<div class="icon-input">
+						<img src="img/ic_input2_1.svg" alt="alt">
+					</div>
+					<input type="text" placeholder="Введите ваш телефон" class="input-phone" required="required">
+				</div>
+				<div class="checkbox checkbox_page">
+					<label>
+						<input type="checkbox" required="required" checked="checked" />
+						<span>Cогласен с политикой конфиденциальности</span>
+					</label>
+				</div>
+				<button class="btn-main">Отправить</button>
+			</form>
+		</div>
+	</div>
+
+	<div id="modal-success" class="modal-block">
+		<div class="modal-wrap">
+			<div class="logo-modal">
+				<img src="img/logo2.svg" alt="alt">
+			</div>
+			<div class="title-modal">Ваша заявка <br>отправлена!</div>
+			<div class="descr-modal">Наши специалисты свяжутся <br>с Вами в ближайшее время.</div>
+			<div class="modal-wrap__icon">
+				<img src="img/icon_modal1.svg" alt="alt">
+			</div>
+		</div>
+	</div>
+
+	<!--[if lt IE 9]>
+	<script src="libs/html5shiv/es5-shim.min.js"></script>
+	<script src="libs/html5shiv/html5shiv.min.js"></script>
+	<script src="libs/html5shiv/html5shiv-printshiv.min.js"></script>
+	<script src="libs/respond/respond.min.js"></script>
+	<![endif]-->
+	<script src="libs/jquery/jquery-3.6.0.min.js"></script>
+	<script src="libs/jquery-mousewheel/jquery.mousewheel.min.js"></script>
+	<script src="libs/fancybox-master/dist/jquery.fancybox.min.js"></script>
+	<script src="libs/swiper/swiper-bundle.min.js"></script>
+	<script src="libs/mask/jquery.maskedinput.js"></script>
+	<script src="libs/vanillajs-datepicker-master/dist/js/datepicker-full.min.js"></script>
+	<script src="libs/vanillajs-datepicker-master/dist/js/locales/ru.js"></script>
+	<script src="js/common.js?ver=1.1"></script>
+
+	<!-- Yandex.Metrika counter --><!-- /Yandex.Metrika counter -->
+	<!-- Google Analytics counter --><!-- /Google Analytics counter -->
+</body>
+</html>
