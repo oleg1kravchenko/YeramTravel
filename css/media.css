@@ -542,7 +542,7 @@
         padding: 8px;
     }
     .consultation {
-        padding-top: 15px;
+        padding: 15px 14px;
         padding-bottom: 18px;
         background-image: none;
     }
@@ -641,6 +641,7 @@
         padding: 22px;
     }
     .reviews .swiper-reviews {
+        margin: 0;
         margin-top: 27px;
     }
     .about__descr {
@@ -693,8 +694,9 @@
         margin-right: 19px;
     }
     .footer {
-        padding-top: 16px;
+        padding: 16px 14px;
         padding-bottom: 13px;
+        padding-right: 0;
         font-size: 12px;
     }
     .footer__title {
@@ -817,6 +819,7 @@
         margin: 0;
     }
     .header__top {
+        padding: 0 12px;
         position: static;
     }
     .header {
@@ -1173,6 +1176,12 @@
     }
     .contacts-form .checkbox.checkbox_page label > span {
         padding: 2px 0 0 28px;
+    }
+    .tourism .tabs a {
+        min-width: initial;
+    }
+    .row_advantages {
+        padding: 0 20px;
     }
 }
 
