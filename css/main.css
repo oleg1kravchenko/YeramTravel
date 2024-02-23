@@ -1446,6 +1446,10 @@ form {
 	background-position: center;
 	background-size: cover;
 	position: absolute;
+	transition: all 0.5s;
+}
+.btn-top:hover {
+	transform: scale(1.1);
 }
 .footer .container {
 	position: relative;
