@@ -719,6 +719,7 @@ form {
 	right: -37px;
 	bottom: -2px;
 	border-radius: 50%;
+	z-index: 2;
 	background-color: #ffd700;
 	display: flex;
 	align-items: center;
